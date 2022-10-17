@@ -1,0 +1,17 @@
+header {
+    background-color: #0BA1DC;
+    padding: 15px;
+    color: white;
+    text-align: left;
+    display: block;
+}
+
+ul {
+    display: block;
+    margin: auto;
+}
+
+ul li{
+    margin: 15px;
+    display: inline-block;
+}
