@@ -6,12 +6,82 @@ header {
     display: block;
 }
 
-ul {
-    display: block;
+.formulario-contato h2, p {
+    text-align: center;
+}
+
+.formulario-contato h2 {
+    padding: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.formulario-contato p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.formulario-contato span {
+    color: #0BA1DC;
+}
+
+.fale-conosco-dados {
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;    
+}
+
+.fale-conosco-dados ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.fale-conosco-dados ul li p {
+    text-align: left;
+    line-height: 150%;
+    margin-right: 30px;
+}
+
+span {
+    vertical-align: middle;
+}
+
+hr { 
+    opacity: 10%;
+}
+
+form {
+    margin: 0 auto;
+    width: 940px;
+}
+
+form div {
+    display: inline-block;
     margin: auto;
 }
 
-ul li{
-    margin: 15px;
-    display: inline-block;
-}
+input[type=text], select{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0 ;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    
+  }
+
+  .text-area {
+    width: 940px;
+    margin: auto;
+    padding: 40px 0;
+  }
+
+  textarea {
+    width: 940px;
+    padding: 30px 0;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    
+  }

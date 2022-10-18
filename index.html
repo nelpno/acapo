@@ -13,12 +13,47 @@
 <body>
     <header>
         <ul>
-            <li><p><i class="fas fa-map-marker-alt"></i>Rua da Bahia. nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p></li>
+            <li><i id="pin-mapa" class="fas fa-map-marker-alt"></i></li>
+            <li><p>Rua da Bahia. nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p></li>
             <li><p>(31)2104-3017-WhatsApp</p></li>
             <li><p>parceria@acapo.org.br</p></li>
             <li><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i></li>
         </ul>
     </header>
     
+    <main>
+        <div class="formulario-contato">
+            <h2><span>FALE</span> CONOSCO</h2>
+            <p>Dúvidas, sugestões ou reclamações entre em contato conosco através do formulário de contato abaixo.</p>
+            <div class="fale-conosco-dados">
+                <hr>
+                <ul>
+                    <span style="color: #0BA1DC;"><i class="fa-brands fa-whatsapp fa-2xl"></i></span><li><p> (31) 2104-3017-WhatsApp</p></li>
+                    <span style="color: #0BA1DC;"><i class="fa-solid fa-location-dot fa-2xl"></i></span><li><p> Rua da Bahia, nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p></li>               
+                    <span style="color: #0BA1DC;"><i class="fa-regular fa-envelope fa-2xl"></i></span><li><p> parceria@acapo.org.br</p></li>
+                </ul>
+                <hr>
+            </div>
+            
+            <form>
+                <div>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="Nome">
+                </div>
+                <div>
+                <label for="Nome">E-mail:</label>
+                <input type="text" id="email">
+                </div>
+                <div>
+                    <label for="Nome">Fixo ou celular:</label>
+                    <input type="text" id="fixo-celular">
+                </div>
+                <div class="text-area">
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
