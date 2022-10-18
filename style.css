@@ -2,16 +2,55 @@ header {
     background-color: #0BA1DC;
     padding: 15px;
     color: white;
-    text-align: left;
-    display: block;
 }
 
-ul {
-    display: block;
+.header {
+    width: 940px;
     margin: auto;
 }
 
-ul li{
-    margin: 15px;
+.header div {
     display: inline-block;
+    vertical-align: middle;
+    margin: 0 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.menu-nav {
+    background-color: white;
+    width: 940px;
+    margin: auto;
+}
+
+.menu-nav img {
+    vertical-align: middle;
+}
+
+.lista-nav {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.lista-nav li {
+    margin-left: px;
+}
+
+.lista-nav li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.lista-nav li a:hover {
+    color: white;
+    background-color: #0BA1DC;
+    border-radius: 20px;
+    padding: 7px;
 }
