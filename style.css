@@ -97,7 +97,7 @@ hr {
 }
 
 form {
-    margin: 0 auto;
+    margin: auto;
     width: 940px;
 }
 
@@ -117,13 +117,13 @@ input[type=text], select{
   }
 
   .text-area {
-    width: 940px;
     margin: auto;
     padding: 40px 0;
+    text-align: center;
   }
 
   textarea {
-    width: 940px;
+    width: 860px;
     padding: 30px 0;
     margin: 10px 0;
     border: 1px solid #ccc;
