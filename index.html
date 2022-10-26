@@ -8,75 +8,62 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+</link>
 </head>
 <body>
-    <header>
-        <ul class="header">
-            <div>
-                <li><i class="fas fa-map-marker-alt fa-lg"></i></li>
-                <li><p>Rua da Bahia. nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p></li>
-            </div>
-            <div>
-                <li><i class="fa-brands fa-whatsapp fa-lg"></i></li>
-                <li><p>(31)2104-3017 - WhatsApp</p></li>
-            </div>
-            <div>
-                <li><i class="fa-solid fa-envelope fa-lg"></i></i></li>
-                <li><p>parceria@acapo.org.br</p></li>
-            </div>
-            <div>
-                <li><i class="fa-brands fa-instagram fa-xl"></i></li>
-                <li><i class="fa-brands fa-facebook fa-xl"></i></li>
-            </div>
-        </ul>
+    <header class="cabecalho">
+        <section class="cabecalho__itens">
+            <p class="cabecalho__itens__dados cabecalho__itens-localidade"><i class="fas fa-map-marker-alt fa-lg"></i>Rua da Bahia, nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p>
+            <p class="cabecalho__itens__dados cabecalho__itens-whatsapp"><i class="fa-brands fa-whatsapp fa-lg"></i>(31) 2104-3017 WhatsApp</p>
+            <p class="cabecalho__itens__dados cabecalho__itens-e-mail"><i class="fa-solid fa-envelope fa-lg"></i>parceria@acapo.org.br</p>
+            <p class="cabecalho__itens__dados cabecalho__itens-icones"><i class="fa-brands fa-facebook fa-lg"></i><i class="fa-brands fa-instagram fa-lg"></i></p>
+        </section>
     </header>
-
     <nav class="menu-nav">
-        <img src="logo.png" width="130px" alt="logo-acapo">
-        <ul class="lista-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre a acapo</a></li>
-            <li><a href="#">Agenda</a></li>
-            <li><a href="#">Notícias</a></li>
-            <li><a href="#">Associe-se</a></li>
-            <li><a href="#">Clube de vantagens</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <img src="/img/logo.jpg" alt="logo-acapo" class="menu-nav__imagem-logo">
+        <a href="#" class="menu-nav__itens">Home</a></li>
+        <a href="#" class="menu-nav__itens">Sobre a acapo</a></li>
+        <a href="#" class="menu-nav__itens">Agenda</a></li>
+        <a href="#" class="menu-nav__itens">Notícias</a></li>
+        <a href="#" class="menu-nav__itens">Associe-se</a></li>
+        <a href="#" class="menu-nav__itens">Clube de vantagens</a></li>
+        <a href="#" class="menu-nav__itens">Contato</a></li>
     </nav>
+    <img src="banner_acapo.png" alt="Banner Acapo" class="banner-inicial">
     <main>
-        <div class="formulario-contato">
+        <section class="apresentacao">
+            <h2 class="apresentacao__titulo"><span>Prazer,</span> nós somos a acapo</h2>
+            <p class="apresentacao__paragrafos apresentacao__paragrafos-texto-explicativo">A ACAPO, fundada em 2018, tem o objetivo de trazer benefícios e eventos para a classe odontológica de Minas Gerais. Em 2022, a Associação estará sob nova direção, com o Presidente Dr. Raphael Tavares, e já renovou o acordo de cooperação com o CRO-MG.<br><br>Através da ACAPO já está viabilizado para que o CRO-MG faça sorteios em 2022 e 2023!<br><br>Acompanhe a página da ACAPO no Instagram e fique por dentro das novidades que estmaos preparando para você!</p>
+            <p class="apresentacao__paragrafos apresentacao__paragrafos-título-secao">fatos marcantes</p>
+            <p class="apresentacao__paragrafos apresentacao__paragrafos-botao-noticias"><button class="apresentacao__paragrafos__botao">2022</button>Raphael Tavares, e já renovou o acordo de cooperação com o CRO-MG</p>
+            <p class="apresentacao__paragrafos apresentacao__paragrafos-botao-noticias"><button class="apresentacao__paragrafos__botao">2019</button>ACAPO será reconhecida como Entidade de Utilidade Pública!</p>
+            <p class="apresentacao__paragrafos apresentacao__paragrafos-botao-noticias"><button class="apresentacao__paragrafos__botao">2018</button>Fundada em 2018, tem o objetivo de trazer benefícios e eventos para a classe odontológica de Minas Gerais.</p>
+        </section>
+        <section class="ultimas-noticias">
+            <h2 class="ultimas-noticias__titulo"><span>Últimas</span>notícias</h2>
+            <p class="ultimas-noticias__cards ultimas-noticias__cards-principal"><img src="imagem1.png" alt="Imagem noticia"></p>
+            <p class="ultimas-noticias__cards ultimas-noticias__cards-imagem-lateral"><img src="imagem2.png" alt="Sorteio"><button>27/06/2020</button>É neste sábado, dia 27 de junho, o sorteio da cadeira odontológica @dentemedbrasil.</p>
+            <p class="ultimas-noticias__cards ultimas-noticias__cards-imagem-lateral"><img src="imagem3.png" alt="Sorteio"><button>05/03/2020</button>A ACAPO preparou para você, Cirurgião-Dentista de MG, o maior sorteio da odonto no Instagram.</p>
+            <p class="ultimas-noticias__cards ultimas-noticias__cards-imagem-lateral"><img src="imagem4.png" alt="Sorteio"><button>26/08/2019</button>ACAPO será reconhecida como Entidade de Utilidade Pública!</p>
+            <button class="ultimas-noticias__botao-mais-noticias"><i class="fa-sharp fa-solid fa-circle-check"></i> ver mais notícias</button>
+        </section>
+        <section class="formulario-contato">
             <h2><span>FALE</span> CONOSCO</h2>
             <p>Dúvidas, sugestões ou reclamações entre em contato conosco através do formulário de contato abaixo.</p>
             <div class="fale-conosco-dados">
-                <hr>
-                <ul>
-                    <span style="color: #0BA1DC;"><i class="fa-brands fa-whatsapp fa-2xl"></i></span><li><p> (31) 2104-3017-WhatsApp</p></li>
-                    <span style="color: #0BA1DC;"><i class="fa-solid fa-location-dot fa-2xl"></i></span><li><p> Rua da Bahia, nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p></li>               
-                    <span style="color: #0BA1DC;"><i class="fa-regular fa-envelope fa-2xl"></i></span><li><p> parceria@acapo.org.br</p></li>
-                </ul>
-                <hr>
+                <p><i class="fa-brands fa-whatsapp fa-2xl fale-conosco-dados__icones"></i>(31) 2104-3017-WhatsApp</p>
+                <p><i class="fa-solid fa-location-dot fa-2xl fale-conosco-dados__icones"></i>Rua da Bahia, nº1477 - Centro<br>CEP: 30160-017 - Belo Horizonte/MG</p>
+                <p><i class="fa-regular fa-envelope fa-2xl fale-conosco-dados__icones"></i>parceria@acapo.org.br</p>
             </div>
-            
-            <form>
-                <div>
-                    <label for="Nome">Nome:</label>
-                    <input type="text" id="Nome">
-                </div>
-                <div>
-                <label for="Nome">E-mail:</label>
-                <input type="text" id="email">
-                </div>
-                <div>
-                    <label for="Nome">Fixo ou celular:</label>
-                    <input type="text" id="fixo-celular">
-                </div>
-                <div class="text-area">
-                    <label for="msg">Mensagem:</label>
-                    <textarea id="msg"></textarea>
-                </div>
+            <form class="formulario-contato__formulario">
+                <label for="Nome">Nome:<input type="text" id="Nome"></label>          
+                <label for="Nome">E-mail:<input type="text" id="email"></label>
+                <label for="Nome">Fixo ou celular:<input type="text" id="fixo-celular"></label>
+                <label class="formulario-contato__formulario__mensagem" for="msg">Mensagem:<textarea id="msg"></textarea></label>
             </form>
-        </div>
+            <button class="formulario-contato__botao-fale-conosco">ENVIAR E-MAIL</button>
+        </section>
     </main>
 </body>
 </html>
