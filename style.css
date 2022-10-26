@@ -63,9 +63,134 @@ body {
     padding: 7px;
 }
 
+.banner-inicial {
+    width: 100vw;
+    max-width: 1980px;
+    min-width: 1440px
+}
+
 main {
     width: 940px;
     margin: 0 auto;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.apresentacao__titulo {
+    font-size: 35px;
+    padding: 30px 0;
+    font-weight: bold;
+    text-align: left;
+    grid-column: span 2;
+    text-transform: uppercase;
+}
+
+.apresentacao__paragrafos {
+    font-size: 16px;
+    line-height: 130%;
+    padding: 15px;
+}
+
+.apresentacao__paragrafos-texto-explicativo {
+    grid-row: span 4;
+    border: 1px solid #ccc;
+}
+
+.apresentacao__paragrafos-título-secao {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;    
+}
+
+.apresentacao__paragrafos-botao-noticias {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    grid-template-rows: auto;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.apresentacao__paragrafos__botao {
+    border: 1px solid #0BA1DC;
+    background-color: #0BA1DC;
+    color: white;
+    background-color: #0BA1DC;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.ultimas-noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr auto;
+    gap: 10px;
+}
+
+.ultimas-noticias__titulo {
+    font-size: 35px;
+    padding: 30px 0;
+    font-weight: bold;
+    text-align: center;
+    grid-column: span 2;
+    text-transform: uppercase;
+    grid-column: span 2;
+}
+
+.ultimas-noticias__cards-principal {
+    grid-row: span 3;
+}
+
+.ultimas-noticias__cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 8px;
+    align-items: center;
+}
+
+.ultimas-noticias__cards-imagem-lateral {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ultimas-noticias__cards-imagem-lateral img {
+    grid-row: span 2;
+}
+
+.ultimas-noticias__cards button {
+    border: 1px solid #0BA1DC;
+    background-color: #0BA1DC;
+    color: white;
+    background-color: #0BA1DC;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 5px;
+    justify-self: left;
+}
+
+.ultimas-noticias__botao-mais-noticias {
+    grid-column: span 2;
+    margin: 30px auto;
+    border: 1px solid #0BA1DC;
+    border-radius: 30px;
+    background-color: white;
+    color: #0BA1DC;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
 }
 
 .formulario-contato h2 {
@@ -88,6 +213,9 @@ main {
     margin: 0 auto;
     justify-content: space-around;
     padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+
 }
 
 .fale-conosco-dados p {
@@ -109,7 +237,8 @@ main {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 8px
+    gap: 8px;
+    padding: 30px 0;
 }
 
 .formulario-contato__formulario label {
@@ -138,5 +267,18 @@ textarea {
 }
 
 .formulario-contato__botao-fale-conosco {
-    text-align: center;
+    display: block;
+    margin: auto;
+    border: 1px solid #0BA1DC;
+    color: #0BA1DC;
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+.formulario-contato__botao-fale-conosco:hover {
+    background-color: #0BA1DC;
+    color: white;
+    cursor: pointer;
 }
