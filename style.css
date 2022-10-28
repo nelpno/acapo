@@ -388,17 +388,28 @@ textarea {
 
 .formulario-contato__botao-fale-conosco {
     display: block;
-    margin: auto;
+    margin: 20px;
     border: 1px solid #0BA1DC;
     color: #0BA1DC;
     background-color: white;
     border-radius: 30px;
-    padding: 15px 30px;
+    padding: 10px 10px;
     font-weight: bold;
+    font-size: 18px;
+    grid-column: 2;
 }
 
 .formulario-contato__botao-fale-conosco:hover {
     background-color: #0BA1DC;
     color: white;
     cursor: pointer;
+}
+
+.rodape {
+    background-color: #0BA1DC;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: white;
 }
